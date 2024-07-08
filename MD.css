@@ -318,6 +318,12 @@ li {
   margin: 0 auto;
 }
 
+.inpo_mv_03_m img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .inpo_mv_04 {
   display: flex;
   justify-content: center;
@@ -393,7 +399,7 @@ li {
   padding: 30px;
 }
 .inpo_004_1 .line_004_1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 @media (min-width: 2060px) {
   .inpo_004_1 .line_004_1,
