@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
+    background-color: #2D0703;
+}
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    position: relative;
+    background-color: #140001;
+    padding-left: 20px;
+    padding-right: 20PX;
+
+
+    .cate_menus {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 18px;
+
+
+        .cate_menu {
+            display: flex;
+            top: 22px;
+            gap: 20px;
+            padding-left: 10px;
+            color: #F2EEF3;
+
+        }
+
+    }
+
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .menus_chack {
+        display: flex;
+        gap: 20px;
+        top: 22px;
+        font-size: 18px;
+        color: #140001;
+    }
+
+    .item_the_01 {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10PX;
+        gap: 24px;
+        align-items: center;
+        font-size: 16px;
+        color: #140001;
+        background-color: rgba(242, 238, 243);
+        text-align: center;
+        border-radius: 10px;
+
+
+
+        .m_imgs_001 {
+        
+        }
+
+
+    }
+
+
+
+}
