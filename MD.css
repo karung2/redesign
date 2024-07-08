@@ -216,6 +216,11 @@ li {
      object-fit: cover;
 }
 
+.item_butten {
+  transform: translateX(45%);
+  justify-content: space-between;
+}
+
 .mv_001 img {
   width: 100%;
   height: auto;
