@@ -115,6 +115,7 @@ li {
         gap: 20px;
 
     }
+
     .my_menu .logo_image {
         width: 80%;
         height: auto;
@@ -136,7 +137,7 @@ li {
     .item_butten {
         position: absolute;
         top: 72%;
-        left: 50%;
+        left: 48%;
         display: flex;
         justify-content: space-between;
         gap: 20px;
@@ -164,6 +165,9 @@ li {
         left: 20px;
         display: flex;
         gap: 10px;
+        width: 100%;
+        height: auto;
+
 
         .image-with-margin {
             margin-left: 10px;
@@ -172,6 +176,8 @@ li {
 
         .items_0001 {
             display: flex;
+            justify-content: center;
+            align-items: center;
 
             .item_the_01 {
                 display: flex;
@@ -179,7 +185,7 @@ li {
                 padding-right: 30PX;
                 gap: 24px;
                 align-items: center;
-                width: 250px;
+                width: 230px;
                 height: 80px;
                 font-size: 16px;
                 color: #F2EEF3;
@@ -199,49 +205,51 @@ li {
                 border: 1px solid #F2EEF3;
             }
         }
-
-        .items_0002 {
-            .item_the_02 {
-                display: flex;
-                padding-left: 30px;
-                padding-right: 30PX;
-                gap: 24px;
-                align-items: center;
-                width: 250px;
-                height: 80px;
-                font-size: 16px;
-                color: #F2EEF3;
-                background-color: #E88D00;
-                text-align: center;
-                border-radius: 10px;
-            }
-
-            .item_the_the_02 {
-                display: inline-block;
-                padding: 2px 7px;
-                font-size: 18px;
-                color: #FFFFFF;
-                background-color: rgb(255, 255, 255);
-                border-radius: 25px;
-                text-align: center;
-                line-height: 1.5;
-            }
-        }
-    }
-
-    .small_img {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        font-size: 24px;
-        color: #E88D00;
-
-        img {
-            width: 100px;
-            height: auto;
-        }
     }
 }
+
+
+.items_0002 {
+    .item_the_02 {
+        display: flex;
+        padding-left: 30px;
+        padding-right: 30PX;
+        gap: 24px;
+        align-items: center;
+        width: 230px;
+        height: 80px;
+        font-size: 16px;
+        color: #F2EEF3;
+        background-color: #E88D00;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .item_the_the_02 {
+        display: inline-block;
+        padding: 2px 7px;
+        font-size: 18px;
+        color: #FFFFFF;
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+
+.small_img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #E88D00;
+
+    img {
+        width: 100px;
+        height: auto;
+    }
+}
+
 
 
 .mv_000 {
@@ -252,10 +260,14 @@ li {
     }
 
 }
-.item_butten {
-    transform: translateX(45%);
-    justify-content: space-between;
 
+.item_butten {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #140001;
+    padding: 5px 0;
+    
 }
 
 
@@ -349,13 +361,18 @@ li {
 .inpo_mv_03 {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     .inpo_mv_03_01,
     .inpo_mv_03_02,
     .inpo_mv_03_03 {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
         text-align: center;
         color: #ffffff;
-        font-size: 18x;
+        font-size: 18px; 
         margin: 0 20px;
 
         .inpo_mv_03_01 img,
@@ -366,11 +383,13 @@ li {
         }
     }
 }
+
 .inpo_mv_03_m {
     img {
         width: 100%;
         object-fit: cover;
-    } }
+    }
+}
 
 .inpo_mv_04 {
     display: flex;
@@ -383,11 +402,9 @@ li {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
     gap: 20px;
     align-items: center;
-    width: 300px;
+    width: calc(100% - 40px);
     height: 80px;
     font-size: 16px;
     color: #F2EEF3;
@@ -397,10 +414,14 @@ li {
     margin-bottom: 50px;
 }
 
-.inpo_mv_04_11,
+.inpo_mv_04_11{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0 20px;
+}
 .inpo_mv_04_12 {
     color: #ffffff;
-    font-size: 24x;
+    font-size: 32px;
     margin: 0 20px;
 }
 
@@ -452,7 +473,8 @@ li {
     gap: 40px;
     background-color: #140001;
     color: #ffffff;
-    padding: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
 
     .line_004_1 {
         margin-bottom: 10px;
@@ -488,6 +510,7 @@ li {
         right: 10px;
         width: 20%;
         height: auto;
+     
 
         img {
             width: 100%;

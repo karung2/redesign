@@ -117,7 +117,7 @@ li {
 .items_001 .item_butten {
   position: absolute;
   top: 72%;
-  left: 50%;
+  left: 48%;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -141,6 +141,8 @@ li {
   left: 20px;
   display: flex;
   gap: 10px;
+  width: 100%;
+  height: auto;
 }
 .items_001 .items_1234 .image-with-margin {
   margin-left: 10px;
@@ -148,6 +150,8 @@ li {
 }
 .items_001 .items_1234 .items_0001 {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .items_001 .items_1234 .items_0001 .item_the_01 {
   display: flex;
@@ -155,7 +159,7 @@ li {
   padding-right: 30PX;
   gap: 24px;
   align-items: center;
-  width: 250px;
+  width: 230px;
   height: 80px;
   font-size: 16px;
   color: #F2EEF3;
@@ -173,13 +177,14 @@ li {
   line-height: 1.5;
   border: 1px solid #F2EEF3;
 }
-.items_001 .items_1234 .items_0002 .item_the_02 {
+
+.items_0002 .item_the_02 {
   display: flex;
   padding-left: 30px;
   padding-right: 30PX;
   gap: 24px;
   align-items: center;
-  width: 250px;
+  width: 230px;
   height: 80px;
   font-size: 16px;
   color: #F2EEF3;
@@ -187,7 +192,7 @@ li {
   text-align: center;
   border-radius: 10px;
 }
-.items_001 .items_1234 .items_0002 .item_the_the_02 {
+.items_0002 .item_the_the_02 {
   display: inline-block;
   padding: 2px 7px;
   font-size: 18px;
@@ -197,14 +202,15 @@ li {
   text-align: center;
   line-height: 1.5;
 }
-.items_001 .small_img {
+
+.small_img {
   position: absolute;
   bottom: 20px;
   right: 20px;
   font-size: 24px;
   color: #E88D00;
 }
-.items_001 .small_img img {
+.small_img img {
   width: 100px;
   height: auto;
 }
@@ -217,8 +223,11 @@ li {
 }
 
 .item_butten {
-  transform: translateX(45%);
+  display: flex;
   justify-content: space-between;
+  gap: 10px;
+  background-color: #140001;
+  padding: 5px 0;
 }
 
 .mv_001 img {
@@ -301,13 +310,18 @@ li {
 .inpo_mv_03 {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .inpo_mv_03 .inpo_mv_03_01,
 .inpo_mv_03 .inpo_mv_03_02,
 .inpo_mv_03 .inpo_mv_03_03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: #ffffff;
-  font-size: 18x;
+  font-size: 18px;
   margin: 0 20px;
 }
 .inpo_mv_03 .inpo_mv_03_01 .inpo_mv_03_01 img,
@@ -340,11 +354,9 @@ li {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
   gap: 20px;
   align-items: center;
-  width: 300px;
+  width: calc(100% - 40px);
   height: 80px;
   font-size: 16px;
   color: #F2EEF3;
@@ -354,10 +366,15 @@ li {
   margin-bottom: 50px;
 }
 
-.inpo_mv_04_11,
+.inpo_mv_04_11 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 20px;
+}
+
 .inpo_mv_04_12 {
   color: #ffffff;
-  font-size: 24x;
+  font-size: 32px;
   margin: 0 20px;
 }
 
@@ -401,7 +418,8 @@ li {
   gap: 40px;
   background-color: #140001;
   color: #ffffff;
-  padding: 30px;
+  padding: 20px;
+  padding-bottom: 40px;
 }
 .inpo_004_1 .line_004_1 {
   margin-bottom: 10px;
