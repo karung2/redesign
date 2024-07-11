@@ -4,7 +4,7 @@ body {
     padding: 0pc;
     margin: 0px;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing:antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
 ul,
@@ -85,7 +85,8 @@ li {
         flex-wrap: wrap;
         gap: 20px;
         font-size: 18px;
-                img {
+
+        img {
             width: 50%;
             height: auto;
             object-fit: cover;
@@ -97,7 +98,7 @@ li {
             gap: 15px;
             top: 22px;
             color: #F2EEF3;
-            
+
         }
     }
 
@@ -276,17 +277,17 @@ li {
     gap: 10px;
     padding: 5px 0;
     background-color: #140001;
-    
 
-.item_butten_1{
+
+    .item_butten_1 {
         height: auto;
         object-fit: cover;
-}
+    }
 
-.button-icon {
-    width: 14px; 
-    height: auto; 
-}
+    .button-icon {
+        width: 14px;
+        height: auto;
+    }
 
 }
 
@@ -322,31 +323,36 @@ li {
 
     @media (min-width: 2060px) {
         .speech-bubble_1 .line1 {
-            font-size: 40px;
+            font-size: 30px;
         }
 
         .speech-bubble_1 .line2 {
-            font-size: 24px;
+            font-size: 20px;
         }
     }
 
     @media (min-width: 1200px) and (max-width: 2059px) {
         .speech-bubble_1 .line1 {
-            font-size: 28px;
+            font-size: 20px;
         }
 
         .speech-bubble_1 .line2 {
-            font-size: 20px;
+            font-size: 18px;
         }
     }
 
     @media (min-width: 370px) and (max-width: 1199px) {
+
+        .speech-bubble_1 {
+            padding: 3% 5%;
+        }
+
         .speech-bubble_1 .line1 {
-            font-size: 20px;
+            font-size: 14px;
         }
 
         .speech-bubble_1 .line2 {
-            font-size: 12px;
+            font-size: 8px;
         }
     }
 }
@@ -387,13 +393,13 @@ li {
     .inpo_mv_03_01,
     .inpo_mv_03_02,
     .inpo_mv_03_03 {
-        display: flex; 
-        flex-direction: column; 
-        justify-content: center; 
-        align-items: center; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         color: #ffffff;
-        font-size: 18px; 
+        font-size: 18px;
         margin: 0 20px;
         transform: scale(0.8);
 
@@ -436,16 +442,17 @@ li {
     margin-bottom: 50px;
 }
 
-.inpo_mv_04_11{
+.inpo_mv_04_11 {
     color: #ffffff;
     font-size: 18px;
     margin: 0 20px;
 }
+
 .inpo_mv_04_12 {
     color: #ffffff;
     font-size: 32px;
     margin: 0 20px;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
 
@@ -501,8 +508,7 @@ li {
 
     .line_004_1 {
         margin-bottom: 10px;
-        font-weight: 600; 
-
+        font-weight: 600;
     }
 
     @media (min-width: 2060px) {
@@ -535,7 +541,7 @@ li {
         right: 10px;
         width: 20%;
         height: auto;
-     
+
 
         img {
             width: 100%;
