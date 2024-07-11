@@ -232,8 +232,16 @@ li {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  background-color: #140001;
   padding: 5px 0;
+}
+.item_butten .item_butten_1 {
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.item_butten .button-icon {
+  width: 18px;
+  height: auto;
 }
 
 .mv_001 img {
@@ -384,6 +392,7 @@ li {
   color: #ffffff;
   font-size: 32px;
   margin: 0 20px;
+  font-weight: 600;
 }
 
 .items_003 {
