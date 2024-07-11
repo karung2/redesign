@@ -3,6 +3,8 @@ body {
   background-color: #2D0703;
   padding: 0pc;
   margin: 0px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul,
@@ -233,6 +235,7 @@ li {
   justify-content: space-between;
   gap: 10px;
   padding: 5px 0;
+  background-color: #140001;
 }
 .item_butten .item_butten_1 {
   height: auto;
@@ -240,7 +243,7 @@ li {
      object-fit: cover;
 }
 .item_butten .button-icon {
-  width: 18px;
+  width: 14px;
   height: auto;
 }
 
@@ -440,6 +443,7 @@ li {
 }
 .inpo_004_1 .line_004_1 {
   margin-bottom: 10px;
+  font-weight: 600;
 }
 @media (min-width: 2060px) {
   .inpo_004_1 .line_004_1,
