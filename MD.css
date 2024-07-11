@@ -232,7 +232,7 @@ li {
 
 .m_item_butten {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 5px 0;
   gap: 20px;
@@ -240,7 +240,11 @@ li {
 }
 
 .m_item_butten .m_item_butten_1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
   height: auto;
+  gap: 10px;
   -o-object-fit: cover;
      object-fit: cover;
 }
